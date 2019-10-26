@@ -1,0 +1,21 @@
+@mixin light
+  font-family: 'Gotham Pro Light', sans-serif
+
+@mixin reg
+  font-family: 'Gotham Pro Regular', sans-serif
+
+@mixin bold
+  font-family: 'Gotham Pro Bold', sans-serif
+
+
+//footer
+@mixin contactBefore
+  position: relative
+  &::before
+    content: ''
+    position: absolute
+    display: inline-block
+    left: -3rem
+    top: 0
+    width: 2rem
+    height: 2rem
